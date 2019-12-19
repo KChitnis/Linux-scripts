@@ -1,2 +1,3 @@
 #!/bin/bash
-echo hello
+
+sudo apt update && sudo apt full-upgrade && sudo apt autoremove && reboot
